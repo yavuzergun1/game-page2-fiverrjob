@@ -221,27 +221,11 @@ body {
   }
 }
 @media (max-width: 945px) and (max-width: 730px) {
-  .menu-container {
-    margin-left: -155px;
-    height: 450px;
-  }
-  .menu {
-    width: 200px;
-    background-size: 200px;
-  }
-  .menu img {
-    margin-bottom: 10px;
-    margin-left: 60px;
-  }
   .window {
-    width: 60%;
-    margin-right: -45px;
-    margin-top: 140px;
-    height: 340px;
+    width: 58%;
   }
-  .left-container {
-    width: 160px;
-    height: 280px;
-    margin-top: -5px;
+  .container {
+    width: 500px;
+    background-size: 320px;
   }
 }/*# sourceMappingURL=style.css.map */
