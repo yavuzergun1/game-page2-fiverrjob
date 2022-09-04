@@ -85,7 +85,7 @@ body {
 }
 .first {
   width: 300px;
-  margin-top: 15px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -146,24 +146,54 @@ body {
 .white {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   position: relative;
   bottom: 76px;
+  padding-bottom: 10px;
 
   .white-text{
     position: absolute;
     width: 180px;
     height: 65px;
+    background-image: url(./assets/Rectangle\ 20.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-left: 7px;
+    p{
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .8rem;
+      font-weight: 600;
+    }
   }
-}
-.second{
-  @extend .first;
-}
-.ninja{
+   .ninja{
   position: relative;
-  left: 61px;
+  left: 100px;
+  top: 2px;
   width: 30px;
   height: 32px;
 }
+ .join-bc{
+    position: relative;
+    width: 60px;
+    height: 25px;
+      left: 55px;
+      bottom: -33px;
+  }
+ .join{
+  position: relative;
+  width: 30px;
+  top: 40px;
+  left: 10px;
+  cursor: pointer;
+ }
+}
+.second{
+  @extend .first;
+    margin-top: -15px;
+}
+
 .third{
   @extend .first;
   margin-top: -15px;
@@ -211,8 +241,11 @@ body {
   .first{
     margin-top: 5px;
   }
+   .second{
+    margin-top: -35px;
+  }
   .third{
-    margin-top: -25px;
+    margin-top: -35px;
   }
   @media (max-width: 730px) {
    .window{
