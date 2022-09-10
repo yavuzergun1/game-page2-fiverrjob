@@ -114,7 +114,7 @@ body {
   padding-left: 28px;
 }
 
-.open-button {
+.open-button, .close-button {
   position: relative;
   right: 25px;
   bottom: 5px;
@@ -122,16 +122,20 @@ body {
   color: white;
   font-size: 0.7rem;
 }
-.open-button img {
+.open-button img, .close-button img {
   width: 55px;
   position: relative;
   z-index: 1;
 }
-.open-button span {
+.open-button span, .close-button span {
   position: relative;
   z-index: 2;
   left: 43px;
   bottom: 5px;
+}
+
+.close-button span {
+  left: 47px;
 }
 
 .black {

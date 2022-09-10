@@ -124,6 +124,12 @@ body {
     bottom: 5px;
   }
 }
+.close-button{
+  @extend .open-button;
+span{
+  left: 47px;
+}
+}
 .black {
   width: 90%;
   display: flex;
