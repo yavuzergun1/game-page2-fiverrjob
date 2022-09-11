@@ -166,7 +166,8 @@ body {
   bottom: 76px;
   padding-bottom: 10px;
 }
-.white .white-text {
+
+.white-text {
   position: absolute;
   width: 180px;
   height: 65px;
@@ -176,27 +177,37 @@ body {
   padding-top: 5px;
   padding-left: 7px;
 }
-.white .white-text p {
+.white-text p {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
 }
-.white .ninja {
+
+.ninja {
   position: relative;
-  left: 100px;
-  top: 2px;
+  left: 80px;
+  top: 1px;
   width: 30px;
   height: 32px;
 }
-.white .join-bc {
+
+.join-bc {
   position: relative;
-  width: 60px;
-  height: 25px;
-  left: 55px;
+  width: 50px;
+  height: 20px;
+  left: 42px;
   bottom: -33px;
+  background-image: url(./assets/Rectangle\ 21-1.png);
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: -10px;
 }
-.white .join {
+
+.join {
   position: relative;
   width: 30px;
   top: 40px;
